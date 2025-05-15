@@ -35,13 +35,13 @@ const Header = () => {
           <Link to={"/wish"} className={styles.link}>
             Wish
           </Link>
-          <Link className={styles.link}>Contact</Link>
+          <Link to={'/asdk'} className={styles.link}>Contact</Link>
         </div>
         <div className={styles.icons}>
           <IoSearchSharp className={styles.navicon} />
           <CiHeart className={styles.navicon} />
           <FaCartArrowDown className={styles.navicon} />
-          {/* Display basket count */}
+       
         </div>
       </div>
     </div>
