@@ -1,0 +1,25 @@
+.wishItem{
+    width: 250px;
+    img{
+        width: 100%;
+    }
+}
+.wishContainer{
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    min-height: 57vh;
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: center;
+
+}
+.deleteButton{
+    padding: 10px 25px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+}

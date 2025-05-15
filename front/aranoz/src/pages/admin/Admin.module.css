@@ -1,0 +1,30 @@
+.productItem{
+    width: 24%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 20%;
+        margin-bottom: 15px;
+    }
+}
+.container{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10px;
+}
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+.deleteButton{
+    padding: 10px 25px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+}

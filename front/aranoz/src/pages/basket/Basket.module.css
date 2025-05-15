@@ -1,0 +1,46 @@
+.basketItem{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+    img{
+        width: 100px;
+    }
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;align-items: center;
+}
+.quantityControl{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.itemDetails{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.basketContainer{
+    display: flex;
+    
+    gap: 15px;
+    margin: 10px;
+}
+.aa{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-height: 70vh;
+    width: 100%;
+}
+.deleteButton{
+    padding: 10px 25px;
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+}
